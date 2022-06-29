@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Banner */
+.bannerContainer{
+    height:75px;
+    background-color:skyblue;
+    border:solid black;
+    display:flex;
+    justify-content:space-around;
+
+}
+.bannerTitle{
+    font-size:30px;
+    padding-top:3%;
+    margin-left:15%;
+}
+.locations{
+    margin-right:15%;
+    font-size:20px;
+    display:flex;
+}
+.cityButton{
+    margin-top:15%;
+    margin-right:10%;
+    height:50%;
+    background-color:skyblue;
+    border:solid skyblue;
+    font-size:20px;
+}
+/* Body */ 
+/* Header */
+.bodyContainer{
+    /* border:solid black; */
+    /* display:flex; */
+    /* justify-content:space-around; */
+    /* flex-flow:column nowrap; */
+    padding-left:15%;
+    padding-right:15%;
+}
+.bodyHeader{
+    /* border:solid green; */
+    border-bottom:solid black;
+    width:100%;
+    justify-content:space-between;
+    display:inline-flex;
+    margin-bottom:3%;
+}
+.pageHeader{
+    font-size:30px;
+    padding-top:3%;
+}
+.tempContainer{
+    display:flex;
+}
+.tempContainer p{
+    margin-top:15%;
+}
+.tempContainer select{
+    height:40%;
+    margin-top:15%;
+}
+/* Body - Content */
+.day1{
+    border:black solid;
+    display:inline-flex;
+    flex-flow:column wrap;
+    justify-content:space-between;
+    width:20%;
+    height:350px;
+    margin-right:3%;
+    text-align:center;
+    background-color:lightgrey;
+}
+.day1 img{
+    padding:3%;
+    height:30%;
+    width: 95%;
+    border-radius:70%;
+}
+.imgDescription{
+    position:relative;
+    bottom:8%;
+}
+.highsAndLows{
+    display:flex;
+    justify-content:space-between;
+    padding:15%;
+}
+.highs{
+    color:red;
+}
+.lows{
+    color:darkblue;
+}
+.footer{
+    height:120px;
+    background-color:skyblue;
+    border:solid black;
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:15%;
+    margin-right:15%;
+    position:fixed;
+    bottom:0%;
+}
+.cookieImg{
+    height:70%;
+    width:50%;
+}
+.acceptCookies{
+    height:20%;
+    margin-top:8%;
+    background-color:blueviolet;
+    color:white;
+    border:solid black;
+    box-shadow:2px 2px black;
+}

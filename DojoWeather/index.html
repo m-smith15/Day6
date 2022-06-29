@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <div class="bannerContainer">
+        <div class="bannerTitle">DojoWeather</div>
+        <div class="locations">
+            <button class="cityButton" onclick="cityChange()">Burbank</button>
+            <button class="cityButton" onclick="cityChange()">Chicago</button>
+            <button class="cityButton" onclick="cityChange()">Dallas</button>
+        </div>
+    </div>
+    <div class="bodyContainer">
+        <div class="bodyHeader">
+            <div class="pageHeader">San Jose</div>
+            <div class="tempContainer">
+                <p>show temperature in</p>
+                <select class="unitsChange" onchange="degreeChange()">
+                    <option>F</option>
+                    <option>C</option>
+                </select>
+            </div>
+        </div>
+        <div class="day1">
+            <div class="dayHeader">Today</div>
+            <img src="/day6/DojoWeather/assets/some_rain.png" alt="its rain">
+            <div class="imgDescription">some rain</div>
+            <div class="highsAndLows">
+                <div class="highs">24</div>
+                <div class="lows">18</div>
+            </div>
+        </div>
+        <div class="day1">
+            <div class="dayHeader">Today</div>
+            <img src="/day6/DojoWeather/assets/some_sun.png" alt="its rain">
+            <div class="imgDescription">some rain</div>
+            <div class="highsAndLows">
+                <div class="highs">27</div>
+                <div class="lows">19</div>
+            </div>
+        </div>
+        <div class="day1">
+            <div class="dayHeader">Today</div>
+            <img src="/day6/DojoWeather/assets/some_clouds.png" alt="its rain">
+            <div class="imgDescription">some rain</div>
+            <div class="highsAndLows">
+                <div class="highs">21</div>
+                <div class="lows">16</div>
+            </div>
+        </div>
+        <div class="day1">
+            <div class="dayHeader">Today</div>
+            <img src="/day6/DojoWeather/assets/some_sun.png" alt="its rain">
+            <div class="imgDescription">some rain</div>
+            <div class="highsAndLows">
+                <div class="highs">26</div>
+                <div class="lows">21</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img class="cookieImg" src="/day6/DojoWeather/assets/cookie.png">
+            <div class="cookieWarning">
+            <p>
+            <b>Chow Down!</b><br>
+            We use cookies on this website, and we're required by law to provide this warning to you. We purposfully make it hard and confusing to have you disallow this by burying it within settings, but providing you this simple accept option. These cookies provide personally information on you specifically that we share with <u>any</u> company that will pay us pennies for it.
+            </p>
+        </div>
+        <button class="acceptCookies" onclick="acceptCookies()">whatever</button>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
