@@ -89,10 +89,10 @@
     justify-content:space-between;
     padding:15%;
 }
-.highs1,.highs2,.highs3,.highs4{
+.high{
     color:red;
 }
-.lows1,.lows2,.lows3,.lows4{
+.low{
     color:darkblue;
 }
 .footer{
